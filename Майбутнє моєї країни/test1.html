@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" onmouseover="opor1()">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link href="img/pngegg (3).png" rel="shortcut icon" type="image/x-icon">
+    <link href="img/pngegg (3).png" rel="apple-touch-icon">
+    <title>Тест</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    html {
+        background-image: none;
+        overflow: auto;
+        font-family: Gilroy;
+        height: 800px;
+    }
+
+    h5 {
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 64px;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 40px;
+        margin-bottom: 85px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        margin: -8px;
+        background: #c3d5dc;
+    }
+
+    .back {
+        display: none;
+    }
+
+    .endy1 {
+        background: linear-gradient(312.27deg, #174557 15.45%, #7e9fc1 85.58%) !important
+    }
+</style>
+
+<body>
+    <img src="img/pngwing.com (25).png" alt="" class="backs" onclick="back(3)">
+    <img src="img/matteo-kutufa-j21uEeQBWsw-unsplash.jpg" alt="">
+    <div class="jk">
+        <h5>Тест на знання колишнього</h5>
+        <div class="bye0">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Які типи екосистем включає в себе природна спадщина України?</div>
+                    <button class="endy noone as1" onclick="prov(1,'Гори та степи;')"> Гори та степи;</button>
+                    <button class="endy noone as2" onclick="prov(2,'Ліси та водні екосистеми;')">Ліси та водні екосистеми;</button>
+                    <button class="endy noone as3" onclick="prov(3,'Гори, степи, ліси та водні екосистеми;')">Гори, степи, ліси та водні екосистеми;</button>
+                    <button class="endy noone as4" onclick="prov(4,'Тільки гори.')">Тільки гори.</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(1)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye1">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Яке значення мають екосистеми для України?</div>
+                    <button class="endy noone as1" onclick="prov(1,'Ми вже стали звикати до цих слів і продовжуємо свою  Екосистеми не мають значення для України;')">Ми вже стали звикати до цих слів і продовжуємо свою Екосистеми не мають значення для України;</button>
+                    <button class="endy noone as2" onclick="prov(2,'Екосистеми є домівками для багатьох видів рослин та тварин і мають велике значення для збереження біорізноманітності та стійкості екосистем;')">Екосистеми є домівками для багатьох видів рослин та тварин і мають велике значення для збереження біорізноманітності та стійкості екосистем;</button>
+                    <button class="endy noone as3" onclick="prov(3,'Екосистеми мають значення лише для іноземних туристів;')">Екосистеми мають значення лише для іноземних туристів;</button>
+                    <button class="endy noone as4" onclick="prov(4,' Екосистеми використовуються виключно для промислового розвитку.')"> Екосистеми використовуються виключно для промислового розвитку.</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(2)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye2">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Які екосистеми вважаються важливим елементом української природи?</div>
+                    <button class="endy noone as1" onclick="prov(1,'Тільки гори;')">Тільки гори;</button>
+                    <button class="endy noone as2" onclick="prov(2,'Тільки степи;')">Тільки степи;</button>
+                    <button class="endy noone as3" onclick="prov(3,'Гори та степи;')">Гори та степи;</button>
+                    <button class="endy noone as4" onclick="prov(4,'Гори та ліси.')">Гори та ліси.</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(3)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye3">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Що можна сказати про гори в Україні?</div>
+                    <button class="endy noone as1" onclick="prov(1,'Гори не мають великого значення для України;')">Гори не мають великого значення для України;</button>
+                    <button class="endy noone as2" onclick="prov(2,'Гори мають виключно промислове значення;')">Гори мають виключно промислове значення;</button>
+                    <button class="endy noone as3" onclick="prov(3,'Гори створюють непересічну красу та приваблюють туристів з усього світу;')">Гори створюють непересічну красу та приваблюють туристів з усього світу;</button>
+                    <button class="endy noone as4" onclick="prov(4,'Гори є небезпечними і не варто їх відвідувати.')">Гори є небезпечними і не варто їх відвідувати.</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(4)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye4">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Що потрібно для збереження природних екосистем в Україні?</div>
+                    <button class="endy noone as1" onclick="prov(1,'Нічого, природа знає, як сама себе зберегти.')">Нічого, природа знає, як сама себе зберегти.</button>
+                    <button class="endy noone as2" onclick="prov(2,'Встановлення суворих обмежень на використання природних ресурсів.')">Встановлення суворих обмежень на використання природних ресурсів.</button>
+                    <button class="endy noone as3" onclick="prov(3,'Поширення знань про екологічні проблеми та залучення громадськості до їх розв\'язання.')">Поширення знань про екологічні проблеми та залучення громадськості до їх розв'язання.</button>
+                    <button class="endy noone as4" onclick="prov(4,'Всі відповіді правильні.')">Всі відповіді правильні.</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(5)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye5">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Яке значення мають гори для української природи?</div>
+                    <button class="endy noone as1" onclick="prov(1,'Непересічна краса та привабливість для туристів')">Непересічна краса та привабливість для туристів</button>
+                    <button class="endy noone as2" onclick="prov(2,'Розміщення промислових підприємств')">Розміщення промислових підприємств</button>
+                    <button class="endy noone as3" onclick="prov(3,'Забезпечення житлового будівництва')">Забезпечення житлового будівництва</button>
+                    <button class="endy noone as4" onclick="prov(4,'Не мають значення')">Не мають значення</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(6)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye6">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Які природні екосистеми включає в себе природна спадщина України?</div>
+                    <button class="endy noone as1" onclick="prov(1,'Гори, степи, ліси та водні екосистеми')">Гори, степи, ліси та водні екосистеми</button>
+                    <button class="endy noone as2" onclick="prov(2,'Гори та степи')">Гори та степи</button>
+                    <button class="endy noone as3" onclick="prov(3,'Ліси та водні екосистеми')">Ліси та водні екосистеми</button>
+                    <button class="endy noone as4" onclick="prov(4,'Тільки степи')">Тільки степи</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(7)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye7">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Яке значення має збереження екосистем для України?</div>
+                    <button class="endy noone as1" onclick="prov(1,'Розвага для туристів')">Розвага для туристів</button>
+                    <button class="endy noone as2" onclick="prov(2,'Збереження біорізноманітності та стійкості екосистем')">Збереження біорізноманітності та стійкості екосистем</button>
+                    <button class="endy noone as3" onclick="prov(3,'Полювання на тварин')">Полювання на тварин</button>
+                    <button class="endy noone as4" onclick="prov(4,'Розробка нових територій')">Розробка нових територій</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(8)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye8">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Минуле української природи</div>
+                    <p class="gjoh" style="text-align: initial;">
+                        1) Які типи екосистем включає в себе природна спадщина України?<b class="b1" onmouseenter="myFunction1(0)"></b><br><br>
+                        2) Яке значення мають екосистеми для України?<b class="b2" onmouseenter="myFunction1(1)"></b><br><br>
+                        3) Які екосистеми вважаються важливим елементом української природи?<b class="b3" onmouseenter="myFunction1(2)"></b><br><br>
+                        4) Що можна сказати про гори в Україні?<b class="b4" onmouseenter="myFunction1(3)"></b><br><br>
+                        5) Що потрібно для збереження природних екосистем в Україні?<b class="b5" onmouseenter="myFunction1(4)"></b><br><br>
+                        6) Яке значення мають гори для української природи?<b class="b6" onmouseenter="myFunction1(5)"></b><br><br>
+                        7) Які природні екосистеми включає в себе природна спадщина України?<b class="b7" onmouseenter="myFunction1(6)"></b><br><br>
+                        8) Яке значення має збереження екосистем для України?<b class="b8" onmouseenter="myFunction1(7)"></b><br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="snackbar"></div>
+</body>
+<script src="js/main.js"></script>
+
+</html>

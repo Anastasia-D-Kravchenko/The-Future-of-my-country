@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" onmouseover="opor()">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link href="img/pngegg (3).png" rel="shortcut icon" type="image/x-icon">
+    <link href="img/pngegg (3).png" rel="apple-touch-icon">
+    <title>Тест</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    html {
+        background-image: none;
+        overflow: auto;
+        font-family: Gilroy;
+        height: 800px;
+    }
+
+    h5 {
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 64px;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 40px;
+        margin-bottom: 85px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        margin: -8px;
+        background: #151a2b;
+    }
+
+    .back {
+        display: none;
+    }
+</style>
+
+<body>
+    <img src="img/pngwing.com (25).png" alt="" class="backs" onclick="back(2)">
+    <img src="img/pngwing.com (21).png" alt="">
+    <div class="jk">
+        <h5>Тест на знання прийдешнього</h5>
+        <div class="bye0">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Що буде через декілька років?</div>
+                    <button class="endy noone as1" onclick="prov(1,'«забруднення навколишнього середовища»')">«Забруднення навколишнього середовища»</button>
+                    <button class="endy noone as2" onclick="prov(2,'«очищення навколишнього середовища»')">«Очищення навколишнього середовища»</button>
+                    <button class="endy noone as3" onclick="prov(3,'«кінець світу»')">«Кінець світу»</button>
+                    <button class="endy noone as4" onclick="prov(4,'«подорож на Марс»')">«Подорож на Марс»</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(1)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye1">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Що ми робимо щоб це виправити?</div>
+                    <button class="endy noone as1" onclick="prov(1,'Ми вже стали звикати до цих слів і продовжуємо свою бездіяльність')">Ми вже стали звикати до цих слів і продовжуємо свою бездіяльність</button>
+                    <button class="endy noone as2" onclick="prov(2,'Ми вже стали менше забрюднювати довкілля')">Ми вже стали менше забрюднювати довкілля</button>
+                    <button class="endy noone as3" onclick="prov(3,'Ми з цим змирились')">Ми з цим змирились</button>
+                    <button class="endy noone as4" onclick="prov(4,'Ми почали бити тревогу')">Ми почали бити тревогу</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(2)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye2">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Профілактика хвороб за допомогою навколишнього середовища – оцінка тяжкості хвороб, викликаних навколишнім середовищем, складає ...</div>
+                    <button class="endy noone as1" onclick="prov(1,'45%')">45%</button>
+                    <button class="endy noone as2" onclick="prov(2,'51%')">51%</button>
+                    <button class="endy noone as3" onclick="prov(3,'24%')">24%</button>
+                    <button class="endy noone as4" onclick="prov(4,'3%')">3%</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(3)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye3">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Основним джерелом забруднення довкілля є:</div>
+                    <button class="endy noone as1" onclick="prov(1,'Транспорт')">Транспорт</button>
+                    <button class="endy noone as2" onclick="prov(2,'Промисловість')">Промисловість</button>
+                    <button class="endy noone as3" onclick="prov(3,'Сільське господарство')">Сільське господарство</button>
+                    <button class="endy noone as4" onclick="prov(4,'Побутові')">Побутові</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(4)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye4">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">На 1 місці найбільш актуальна екологічна проблема, яка може впливати на здоров’я це:</div>
+                    <button class="endy noone as1" onclick="prov(1,'зберігання непридатних пестицидів')">зберігання непридатних пестицидів</button>
+                    <button class="endy noone as2" onclick="prov(2,'радіаційне забруднення')">радіаційне забруднення</button>
+                    <button class="endy noone as3" onclick="prov(3,'якість питної води')">якість питної води</button>
+                    <button class="endy noone as4" onclick="prov(4,'забруднення повітря')">забруднення повітря</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(5)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye5">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">На 2 місці найбільш актуальна екологічна проблема, яка може впливати на здоров’я це:</div>
+                    <button class="endy noone as1" onclick="prov(1,'зменшення озеленення')">зменшення озеленення</button>
+                    <button class="endy noone as2" onclick="prov(2,'забруднення ґрунту')">забруднення ґрунту</button>
+                    <button class="endy noone as3" onclick="prov(3,'забруднення води')">забруднення води</button>
+                    <button class="endy noone as4" onclick="prov(4,'неконтрольоване вирубування лісу')">неконтрольоване вирубування лісу</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(6)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye6">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Тому у регіоні, де ми проживаємо, слід звернути увагу на:</div>
+                    <button class="endy noone as1" onclick="prov(1,'збільшення кількості встановлення відповідних сміттєвих баків та своєчасний вивіз сміття')">збільшення кількості встановлення відповідних сміттєвих баків та своєчасний вивіз сміття</button>
+                    <button class="endy noone as2" onclick="prov(2,'чи їде сусід на новій автівці')">чи їде сусід на новій автівці</button>
+                    <button class="endy noone as3" onclick="prov(3,'чи помили ви посуд')">чи помили ви посуд</button>
+                    <button class="endy noone as4" onclick="prov(4,'яку саме воду ви п\'єте')">яку саме воду ви п'єте</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(7)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye7">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Отже, задумуючись над екологічними проблемами світу, перш за все треба</div>
+                    <button class="endy noone as1" onclick="prov(1,'дбати про чистоту тієї території, де ми проживаємо')">дбати про чистоту тієї території, де ми проживаємо</button>
+                    <button class="endy noone as2" onclick="prov(2,'піклуватися чи полив сусід квіти')">піклуватися чи полив сусід квіти</button>
+                    <button class="endy noone as3" onclick="prov(3,'стежити за тим, щоб небо було синім')">стежити за тим, щоб небо було синім</button>
+                    <button class="endy noone as4" onclick="prov(4,'слідкувати чи погодувала ваша бабуся кота')">слідкувати чи погодувала ваша бабуся кота</button>
+                </div>
+                <div class="back"></div>
+                <button class="clickme" onclick="clickm(8)">Відправити</button>
+            </div>
+        </div>
+        <div class="bye8">
+            <div class="alll1">
+                <div class="alll">
+                    <div class="endy aspro">Майбутнє української природи</div>
+                    <p class="gjoh" style="text-align: initial;">На сьогодні забруднення навколишнього середовища досягло критичної точки і ми все частіше чуємо слова <b class="b1" onmouseenter="myFunction(0)"></b>, «забруднення довкілля». <b class="b2" onmouseenter="myFunction(1)"></b>.
+                        За даними Всесвітньої Організації Охорони Здоров’я (ВООЗ), у 2007 році вперше зображено вплив шкідливих факторів навколишнього середовища на конкретні хвороби та травми. В доповіді ВООЗ “Профілактика хвороб за допомогою навколишнього середовища – оцінка тяжкості хвороб, викликаних навколишнім середовищем” зазначається, що <b class="b3" onmouseenter="myFunction(2)"></b> всіх хвороб у світі виникають та розвиваються через погані умови навколишнього середовища. Причому у дітей з цим пов’язано 33% всіх випадків захворювань!
+                        Основні джерела забруднення довкілля:
+                        <b class="b4" onmouseenter="myFunction(3)"></b> (довкілля, переробна);
+                        Транспорт ( наприклад автотранспорт міста є джерелом близько 60-70% забруднення повітря);
+                        Сільське господарство ( агрохімікати, добрива, різні засоби для боротьби із хворобами рослин, шкідниками, бур’янами);
+                        Побутові (тверді та рідкі побутові відходи, продукти горіння, що утворюються в результаті роботи опалювальних систем).
+
+                        З вищезазначеного можна сказати, що найбільш актуальні екологічні проблеми, які можуть впливати на здоров’я це:
+                        <ul style="text-align: initial;">
+                            <li> <b class="b5" onmouseenter="myFunction(4)"></b></li>
+                            <li> <b class="b6" onmouseenter="myFunction(5)"></b></li>
+                            <li> проблема відходів</li>
+                            <li> якість питної води</li>
+                            <li> забруднення ґрунту</li>
+                            <li> якість продутів харчування</li>
+                            <li> радіаційне забруднення</li>
+                            <li> отрутохімікати в С/Г</li>
+                            <li> йододефіцит</li>
+                            <li> зберігання непридатних пестицидів</li>
+                            <li> зменшення озеленення</li>
+                            <li> забруднення важкими металами</li>
+                            <li> неконтрольоване вирубування лісу.</li>
+                        </ul>
+                        Тому у регіоні, де ми проживаємо, слід звернути увагу на:
+                        <ul style="text-align: initial;">
+                            <li> <b class="b7" onmouseenter="myFunction(6)"></b></li>
+                            <li> дотримуватись сортування сміття, як це роблять у країнах Європи й Америки: харчове сміття знищується, консервні банки — переробляються; скляні чи пластмасові пляшки використовуються повторно або переробляються і знову запускаються у виробництво;</li>
+                            <li> дотримання правила «сміття має потрапляти туди, де воно найменш завдаватиме шкоди людям і природі»;</li>
+                            <li> заборонити в жодному разі спалювати сміття;</li>
+                            <li> здійснення діяльності із додержанням вимог екологічної безпеки;</li>
+                            <li> участь у проведенні санітарних і протиепідемічних заходів;</li>
+                            <li> учням школи та жителям села пропагувати здоровий спосіб життя в екологічно чистому середовищі, насаджувати дерева, кущі, квіти, підтримувати чистоту біля будинків, по берегах річки, ставу, у парках (можна проводити так звані дні здоров’я).</li>
+                            Отже, задумуючись над екологічними проблемами світу, перш за все треба <b class="b8" onmouseenter="myFunction(7)"></b>. Адже чисте довкілля – наше здоров’я, а отже – наша мета! Адже ми всі добре знаємо як поводитись так, щоб не зашкодити природі. І якщо ми не будемо байдужими до проблем довкілля і дотримуватимемось вище наведених пропозицій, можна сподіватися, що будуть чистими кожна вулиця,місто,село, загалом країна, а люди будуть у злагоді з природою.
+                            Тільки спільними зусиллями всього людства ми зможемо досягти позитивних результатів і здоров’я наступних поколінь!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="snackbar"></div>
+</body>
+<script src="js/main.js"></script>
+
+</html>
